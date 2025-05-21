@@ -1,6 +1,6 @@
-# Výstupy SQL dotazů
+# Outputs of SQL queries
 
-## Selekce všech vlastníků z tabulky owners seřazených vzestupně podle příjmení.
+## Selection of all owners from the owners table sorted in ascending order by last name.
 
 | id | first_name | last_name   | birthday   | city    | street   | house_number | zip_code |
 |----|------------|-------------|------------|---------|----------|---------------|----------|
@@ -12,7 +12,7 @@
 
 ---
 
-## Selekce všech všech vlastníků z tabulky owners, kteří se narodili po roce 1980.
+## Selection of all owners from the owners table who were born after the year 1980.
 
 | id | first_name | last_name   | birthday   | city    | street   | house_number | zip_code |
 |----|------------|-------------|------------|---------|----------|---------------|----------|
@@ -21,7 +21,7 @@
 
 ---
 
-## Selekce všech vlastníků z tabulky owners, kteří pocházejí z města, jehož název začíná písmenem P
+## Selection of all owners from the owners table who come from a city whose name starts with the letter P.
 
 | id | first_name | last_name | birthday   | city   | street  | house_number | zip_code |
 |----|------------|-----------|------------|--------|---------|---------------|----------|
@@ -30,7 +30,7 @@
 
 ---
 
-## Selekce počtu všech jedinečných modelů (DISTINCT) z tabulky models.
+## Selection of the count of all unique models (DISTINCT) from the models table.
 
 | unique_model_count |
 |--------------------|
@@ -38,7 +38,7 @@
 
 ---
 
-## Selekce všech VIN kódů (projekce) z tabulky vehicles.
+## Selection of all VIN codes (projection) from the vehicles table.
 
 | vin_code            |
 |---------------------|
